@@ -1,5 +1,2 @@
-import Rails from '@rails/ujs'
-
-try {
-  Rails.start()
-} catch {}
+import { Turbo } from '@hotwired/turbo-rails'
+window.Turbo = Turbo
