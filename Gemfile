@@ -41,3 +41,8 @@ group :development do
 end
 
 gem "vite_rails", "~> 2.0"
+
+gem "amazing_print", "~> 1.3"
+gem "rails_semantic_logger", "~> 4.5"
+gem "view_component", "~> 2.31"
+gem "dry-rails", "~> 0.3.0"
