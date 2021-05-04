@@ -1,0 +1,12 @@
+pre-commit:
+  parallel: true
+  commands:
+    js:
+      glob: "*.js"
+      run: "yarn prettier --single-quote --write {staged_files} && yarn eslint {staged_files} && git add {staged_files}"
+    css:
+      glob: "*.{css,scss}"
+      run: "yarn prettier --write {staged_files} && yarn stylelint --fix {staged_files} && git add {staged_files}"
+    ruby:
+      glob: "*.rb"
+      run: "bundle exec rubocop --force-exclusion {all_files} --auto-correct-all"

@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "kaiwood.endwise",
+    "rebornix.ruby",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint"
+  ]
+}

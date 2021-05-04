@@ -1,0 +1,46 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 21,
+  "editor.fontSize": 14,
+  "editor.letterSpacing": 0.2,
+  "editor.fontWeight": "400",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.autoIndent": "keep",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.contentUnformatted": "",
+  "html.format.wrapLineLength": 100,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.associations": {
+    "*.js": "javascript",
+    "*.rb": "ruby"
+  },
+  "emmet.includeLanguages": {
+    "html": "html",
+    "html.erb": "html"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.format.enable": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.prettierPath": "./node_modules/prettier",
+  "ruby.useBundler": true,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": {"useBundler": true}
+  },
+  "ruby.format": "rubocop"
+}
