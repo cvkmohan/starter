@@ -23,7 +23,11 @@ module Starter
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
-
+    config.generators do |g|
+      g.assets = nil
+      g.test_framework = nil
+      g.helper = nil
+    end
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
